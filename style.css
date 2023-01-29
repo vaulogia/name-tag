@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
-    background: rgb(224, 234, 247);
+    background: rgb(161, 187, 221);
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -28,3 +28,32 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.name-tag {
+    background: #daca41;
+    color: rgb(26, 26, 121);
+    width: 450px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.greeting {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.name-display {
+    background: rgb(194, 135, 198);
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: cursive;
+    font-size: 2em;
+}
+Footer
